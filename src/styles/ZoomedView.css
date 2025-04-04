@@ -1,0 +1,20 @@
+.zoomed-view {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.zoom-image{
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .zoomed-view {
+    padding: 15px;
+  }
+}
